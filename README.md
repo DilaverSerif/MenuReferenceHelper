@@ -2,17 +2,17 @@
 ui elements keep references in enum type for easier access.
 
 ### Example Usage
-1. First assign a MenuData script to any transform.
+1. First assign a MenuData script to any transform.<br>
 ![](https://imgur.com/325btQN.png)
-2. Change the tag of any canvas to MainCanvas.
+2. Change the tag of any canvas to MainCanvas.<br>
 ![](https://i.imgur.com/KxboCxL.png)
-3. Create a Helper Menu (*UI>Helper Menu*) **its parent must be maincanvas**
+3. Create a Helper Menu (*UI>Helper Menu*) **its parent must be maincanvas**<br>
 ![](https://i.imgur.com/guSVuof.png)
-4. Now just create helperbutton  **its parent must be helpermenu**
+4. Now just create helperbutton  **its parent must be helpermenu**<br>
 ![](https://i.imgur.com/hSdZ38s.png)
-5. now we can create enums (Tools > Menu System > Get Menu Items)
+5. now we can create enums (Tools > Menu System > Get Menu Items)<br>
 ![](https://i.imgur.com/nDg14NJ.png)
-6. We can now reference access with enums
+6. We can now reference access with enums<br>
 
 ```csharp
 public class Example : MonoBehaviour
